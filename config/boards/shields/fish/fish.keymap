@@ -83,27 +83,27 @@
 
         layer_base {
             bindings = <
-                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LCTRL I &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RCTRL S &kp H       &kp P       
-            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 BSPC  &mt LGUI RET        &mt RGUI TAB &lt 2 SPACE 
+                        &kp W       &kp E       &kp R       &kp T               &kp Y       &kp U       &kp I       &kp O       
+&kp A       &kp S       &kp D       &kp F       &kp G       &kp B               &kp N       &kp H       &kp J       &kp K       &kp L       &kp P       
+            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp COMMA   &kp DOT     
+                                                &mt LGUI SPACE &lt 1 RET        &lt 2 TAB   &kp BSPC    
             >;
         };
 
         layer_math {
             bindings = <
-                        &kp N4      &kp N5      &kp N6      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LCTRL N1 &mt LALT N2 &mt LSHFT N3 &kp DOT           &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RCTRL STAR &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                        &kp ESC     &kp DEL     &kp LG(PSCRN) &kp TILDE         &kp MINUS   &kp N7      &kp N8      &kp N9      
+&kp Q       &kp F2      &kp EXCL    &kp QMARK   &kp AT      & +[                &kp UNDER   &kp N4      &kp N5      &kp N6      &kp FSLH    &kp N0      
+            &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI                                    &kp N1      &kp N2      &kp N3      &kp DOT     
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
 
         layer_navi {
             bindings = <
-                        &kp LBKT    &kp DQT     &kp RBKT    &kp AMPS            &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
-&kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp LS(LG(N3)) 
-            &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
+                        &kp LBKT    &kp DQT     &kp RBKT    &kp AMPS            &kp C_VOL_UP &kp ESC    &kp UP      &kp TAB     
+&kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp LT      &kp LS(LG(N3)) 
+            &kp BSLH    &kp LBRC    &kp COLON   &kp RBRC                                    &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp GT      
                                                 &lt 6 BSPC  &trans              &trans      &none       
             >;
         };
@@ -137,9 +137,9 @@
 
         layer_system {
             bindings = <
-                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &tog 3      &kp INS     &kp HOME    &kp PG_UP   
-&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &kp DEL     &kp END     &kp PG_DN   &kp K_APP   &kp F12     
-            &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
+                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &tog 3      &kp F1      &kp F2      &kp F3      
+&kp INS     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp PG_DN       &kp K_APP   &kp F4      &kp F5      &kp F6      &kp F7      &kp F12     
+            &kp HOME    &kp PG_UP   &kp DEL     &kp END                                     &kp F8      &kp F9      &kp F10     &kp F11     
                                                 &none       &none               &none       &none       
             >;
         };
